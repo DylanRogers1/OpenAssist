@@ -1,0 +1,7 @@
+String input()
+{
+    Scanner scn = new Scanner(System.in);
+    String inp = scn.nextLine();
+    scn.close();
+    return inp;
+}
